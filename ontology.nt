@@ -1,0 +1,433 @@
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6> <http://www.w3.org/2002/07/owl#versionIRI> <urn:absolute:ahr_representacion_del_conociiento_prec2> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#sameAs
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#CompyHasAircraft
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#CompyHasAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#CompyHasAircraft> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Company> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#CompyHasAircraft> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Aircraft> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#flyfromTo
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#flyfromTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#flyfromTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#flyfromTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Route> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasBody
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> .
+_:genid1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasBody> <http://www.w3.org/2000/01/rdf-schema#range> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review_Body> .
+_:genid2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasRating
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review> .
+_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Rating> .
+_:genid4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> .
+_:genid5 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> <http://www.w3.org/2000/01/rdf-schema#range> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Title> .
+_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#reviewHasCountry
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#reviewHasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#reviewHasCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#reviewHasCountry> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review> .
+_:genid7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#reviewHasCountry> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#reviewHasCountry> <http://www.w3.org/2000/01/rdf-schema#range> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Traveller> .
+_:genid8 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#reviewHasCountry> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Rating
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Rating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Rating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Rating> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Rating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Company> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#sameAs
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Aircraft
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Aircraft> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#sameAs> "https://dbpedia.org/ontology/Aircraft" .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Business_Class
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Business_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Business_Class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Cabin_Staff_Service
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Cabin_Staff_Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Cabin_Staff_Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Extra> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Company
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Company> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Country
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Traveller> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Country> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#sameAs> "https://dbpedia.org/ontology/country" .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Couple_Leisure
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Couple_Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Couple_Leisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Type_of_Traveller> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Date_Flown
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Date_Flown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Date_Flown> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Date_Published
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Date_Published> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Date_Published> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Destination
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Destination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Route> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Economy_Class
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Economy_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Economy_Class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Extra
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Extra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Extra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#FlightReview> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Family_Leisure
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Family_Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Family_Leisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Type_of_Traveller> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#First_Class
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#First_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#First_Class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#FlightReview> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Route> .
+_:genid9 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#flyfromTo> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#FlightReview
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#FlightReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight_Entertainment
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight_Entertainment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight_Entertainment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Extra> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Ground_Service
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Ground_Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Ground_Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Extra> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#No
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#No> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#No> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Origin
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Origin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Route> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Premium_Economy
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Premium_Economy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Premium_Economy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Qatar_Airways
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Qatar_Airways> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Qatar_Airways> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Company> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Qatar_Airways> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Ryanair> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Qatar_Airways> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#sameAs> "https://dbpedia.org/page/Qatar_Airways" .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Rating
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#FlightReview> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review_Body
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review_Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review_Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Route
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Route> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Route> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#FlightReview> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Ryanair
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Ryanair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Ryanair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Company> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Ryanair> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#sameAs> "https://dbpedia.org/page/Ryanair" .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Flight> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_comfort
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_comfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Seat_comfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Extra> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Solo_Leisure
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Solo_Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Solo_Leisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Type_of_Traveller> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Title
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Title> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Traveller
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Traveller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Traveller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#FlightReview> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Type_of_Traveller
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Type_of_Traveller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Type_of_Traveller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Traveller> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Value_For_Money
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Value_For_Money> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Value_For_Money> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Extra> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Verified
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Verified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Yes
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Yes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Yes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Food_&_Beverages
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Food_&_Beverages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Food_&_Beverages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Extra> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#N/A
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#N/A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#N/A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Recommended> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Wifi_&_Connectivity
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Wifi_&_Connectivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Wifi_&_Connectivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Extra> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#A330
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#A330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#A330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Aircraft> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#A380
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#A380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#A380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Aircraft> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Boeing_773
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Boeing_773> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Boeing_773> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Aircraft> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Boeing_777
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Boeing_777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Boeing_777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Aircraft> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Boeing_787
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Boeing_787> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Boeing_787> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Aircraft> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Doha
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Doha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Doha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Destination> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Dubai
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Dubai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Dubai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Origin> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I_hope_they_update_the_A380
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I_hope_they_update_the_A380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I_hope_they_update_the_A380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Title> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#London
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#London> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#London> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Destination> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Manchester
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Manchester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Manchester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Origin> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#no_attempt_to_address_our_complaint
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#no_attempt_to_address_our_complaint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#no_attempt_to_address_our_complaint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Title> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#remarkable_experience
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#remarkable_experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#remarkable_experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Title> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text1
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text1> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasBody> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#We_flew_on_probably_the_first_A380_the_airline_received_but_it’s_up_keep_is_very_good_the_caviar_was_excellent_and_the_rack_of_lamb_was_perfect_the_entertainment_system_though_the_screens_were_huge_and_not_very_cooperative_it_is_very_dated_as_for_WiFi_was_bad_to_say_the_least._The_seating_in_First_Class_was_good_and_the_toilets_are_huge_I_hope_they_update_the_A380.> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text1> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I_hope_they_update_the_A380> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text2
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text2> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasBody> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I_have_sent_5_emails_and_have_only_received_2_automatic_response_emails_after_initiating_our_complaint_10_weeks_ago._I_have_sent_all_of_the_relevant_documentation_to_support_our_claim_for_a_refund._Our_group_of_3_booked_adjoining_Exit_Row_seats_on_the_Upper_Deck_of_an_A380_from_Doha_to_Perth_after_a_connecting_flight_from_Amman._We_paid_for_our_Exit_Row_seats_on_August_22_2023_and_received_email_confirmation_that_day._What_was_a_shock_to_us_is_that_when_we_were_at_Amman_airport_we_got_our_tickets_for_the_second_leg,_from_Doha_to_Perth,_we_saw_that_we_had_been_seats_on_the_lower_deck._We_said_this_was_wrong_and_showed_our_August_confirmation_for_seats_30_A,_B_and_C_on_the_upper_deck._We_were_told_by_Qatar_Airways_staff_in_Amman_that_it_could_only_be_fixed_up_in_Doha._We_were_also_told_that_the_reason_was_that_the_plane_had_been_changed_from_an_A380_(which_was_not_correct)_._Our_connecting_flight_from_Amman_to_Doha_was_not_only_cancelled_but_deleted_altogether_meaning_we_had_a_10.5_hour_transit_instead_of_the_original_2.5_hours._Then_at_the_Boarding_Gate_in_Amman_we_were_informed_that_there_were_2_Exit_Row_seats_available_in_the_Upper_Deck_and_that_these_had_been_put_on_hold_for_us_and_to_see_the_Qatar_Ground_staff_in_Doha._We_were_in_a_queue_for_almost_an_hour_at_the_Qatar_Service_Desk_in_Doha._I_asked_how_the_seats_we_had_booked_and_paid_extra_for_in_August,_and_provided_emails_and_a_hard_copy_to_verify_this,_were_no_longer_available_for_us?_We_were_told_that_it_was_a_system_error._There_was_no_apology_at_all_for_the_system_error._We_were_further_disappointed_to_find_out_that_the_2_Exit_Row_seats_on_the_Upper_Deck_that_we_had_been_told_by_staff_at_the_boarding_Gate_at_Amman_had_been_“reserved”_were_not_actually_retained_for_us_and_that_only_1_Exit_Row_seat_was_available._Understandably_we_were_not_happy_that_we_did_not_receive_the_Exit_Row_seats_that_we_had_booked_and_paid_for_more_than_3_months_prior._Through_no_fault_of_our_own_we_were_victims_of_a_Qatar_Airways_system_error._We_did_not_complain_to_the_flight_attendants_on_the_Doha_to_Perth_flight_as_we_understood_that_they_had_no_control_over_the_seat_allocation._However,_we_politely_asked_the_people_in_seats_30A_and_30B,_that_we_had_paid_for_in_August,_when_they_had_purchased_their_seats_and_were_informed_that_they_had_done_so_about_2_weeks_prior._I_chose_Exit_Row_seats_on_the_Upper_Deck_because_of_the_extra_space_and_the_cabin_configuration_of_2_by_4_by_2_seats_and_because_my_wife_and_I_would_be_seated_next_to_each_other_and_the_other_member_of_our_group_would_be_in_the_next_available_Exit_Row_seat._Instead_of_all_being_seated_next_to_each_other_in_Exit_Row_seats_we_were_split_up_and_certainly_didn’t_get_what_we_paid_for._Plus_all_of_the_wasted_time_trying_unsuccessfully_in_Amman_and_then_at_the_Transit_Desk_in_Doha_to_sort_out_the_error_created_by_Qatar_Airways_assigning_our_seats_to_someone_else._It_is_bad_enough_that_we_didn’t_get_2_of_the_Exit_Row_seats_that_we_had_paid_for_that_were_allocated_to_other_people_who_booked_well_after_us._What_is_worse_is_that_there_has_been_no_attempt_by_Qatar_Airways_to_address_our_complaint_let_alone_issue_the_refund_to_which_we_are_entitled._Our_complaint_isn’t_complex.> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text2> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#no_attempt_to_address_our_complaint> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text3
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text3> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasBody> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#They_convinced_me_that_I_needed_to_pay_$1500_to_add_my_middle_name_to_my_flight,_or_they_wouldn't_allow_me_on_the_plane._When_I_got_to_the_airport,_they_didn't_put_my_middle_name_on_the_ticket_and_I_didn't_have_any_issues._I_paid_$2300_to_upgrade_our_seats_to_business_class_from_Doha_to_Montreal._Not_even_an_hour_into_the_flight,_the_seat_reclined_on_its_own,_pinching_my_leg._The_seat_wouldn't_stay_up_the_rest_of_the_13.5_hour_flight.> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text3> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#seat_wouldn't_stay_up> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text4
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text4> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasBody> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Service_was_ok,_pretty_good_on_my_aisle_and_extremely_slow_where_my_wife_was_seated._Layout_was_good,_but_not_exceptional,_I’d_rate_them_maybe_7/10._Landing_in_Doha,_we_then_had_quite_a_long_wait_for_steps_to_be_brought_to_the_aircraft_and_then_a_10_to_15_minute_bus_ride_to_the_terminal._There_is_a_lot_of_competition_for_routes_from_Europe_to_Australasia_and_think_I’ll_pick_one_of_the_other_options_in_future.> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text4> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I’d_rate_them_maybe_7/10> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text5
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Text> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text5> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasBody> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#12th_February_2024_From_check_in_to_get_onboard_remarkable_experience._Since_steping_at_Hamad_International_airport_every_one_was_so_welcoming._Check_in_agent_was_very_professional_and_helpful._Al_mourjan_lounge_was_realy_good._Great_tasting_food._On_board_all_cabin_crew_was_kind_professional_welcoming._Seat_very_good,_leg_space_and_incredible_service,_and_a_very_clean_plane._Inflight_entertainment_was_great_too._The_staff_was_very_polite._Arriving_at_London,_Qatar_staff_gave_me_Fast_track_card_that_helps_me_to_pass_imigration_quick._Thank_you_Qatar_Airways.> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#text5> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#hasTittle> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#remarkable_experience> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#12th_February_2024_From_check_in_to_get_onboard_remarkable_experience._Since_steping_at_Hamad_International_airport_every_one_was_so_welcoming._Check_in_agent_was_very_professional_and_helpful._Al_mourjan_lounge_was_realy_good._Great_tasting_food._On_board_all_cabin_crew_was_kind_professional_welcoming._Seat_very_good,_leg_space_and_incredible_service,_and_a_very_clean_plane._Inflight_entertainment_was_great_too._The_staff_was_very_polite._Arriving_at_London,_Qatar_staff_gave_me_Fast_track_card_that_helps_me_to_pass_imigration_quick._Thank_you_Qatar_Airways.
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#12th_February_2024_From_check_in_to_get_onboard_remarkable_experience._Since_steping_at_Hamad_International_airport_every_one_was_so_welcoming._Check_in_agent_was_very_professional_and_helpful._Al_mourjan_lounge_was_realy_good._Great_tasting_food._On_board_all_cabin_crew_was_kind_professional_welcoming._Seat_very_good,_leg_space_and_incredible_service,_and_a_very_clean_plane._Inflight_entertainment_was_great_too._The_staff_was_very_polite._Arriving_at_London,_Qatar_staff_gave_me_Fast_track_card_that_helps_me_to_pass_imigration_quick._Thank_you_Qatar_Airways.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#12th_February_2024_From_check_in_to_get_onboard_remarkable_experience._Since_steping_at_Hamad_International_airport_every_one_was_so_welcoming._Check_in_agent_was_very_professional_and_helpful._Al_mourjan_lounge_was_realy_good._Great_tasting_food._On_board_all_cabin_crew_was_kind_professional_welcoming._Seat_very_good,_leg_space_and_incredible_service,_and_a_very_clean_plane._Inflight_entertainment_was_great_too._The_staff_was_very_polite._Arriving_at_London,_Qatar_staff_gave_me_Fast_track_card_that_helps_me_to_pass_imigration_quick._Thank_you_Qatar_Airways.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review_Body> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I_have_sent_5_emails_and_have_only_received_2_automatic_response_emails_after_initiating_our_complaint_10_weeks_ago._I_have_sent_all_of_the_relevant_documentation_to_support_our_claim_for_a_refund._Our_group_of_3_booked_adjoining_Exit_Row_seats_on_the_Upper_Deck_of_an_A380_from_Doha_to_Perth_after_a_connecting_flight_from_Amman._We_paid_for_our_Exit_Row_seats_on_August_22_2023_and_received_email_confirmation_that_day._What_was_a_shock_to_us_is_that_when_we_were_at_Amman_airport_we_got_our_tickets_for_the_second_leg,_from_Doha_to_Perth,_we_saw_that_we_had_been_seats_on_the_lower_deck._We_said_this_was_wrong_and_showed_our_August_confirmation_for_seats_30_A,_B_and_C_on_the_upper_deck._We_were_told_by_Qatar_Airways_staff_in_Amman_that_it_could_only_be_fixed_up_in_Doha._We_were_also_told_that_the_reason_was_that_the_plane_had_been_changed_from_an_A380_(which_was_not_correct)_._Our_connecting_flight_from_Amman_to_Doha_was_not_only_cancelled_but_deleted_altogether_meaning_we_had_a_10.5_hour_transit_instead_of_the_original_2.5_hours._Then_at_the_Boarding_Gate_in_Amman_we_were_informed_that_there_were_2_Exit_Row_seats_available_in_the_Upper_Deck_and_that_these_had_been_put_on_hold_for_us_and_to_see_the_Qatar_Ground_staff_in_Doha._We_were_in_a_queue_for_almost_an_hour_at_the_Qatar_Service_Desk_in_Doha._I_asked_how_the_seats_we_had_booked_and_paid_extra_for_in_August,_and_provided_emails_and_a_hard_copy_to_verify_this,_were_no_longer_available_for_us?_We_were_told_that_it_was_a_system_error._There_was_no_apology_at_all_for_the_system_error._We_were_further_disappointed_to_find_out_that_the_2_Exit_Row_seats_on_the_Upper_Deck_that_we_had_been_told_by_staff_at_the_boarding_Gate_at_Amman_had_been_“reserved”_were_not_actually_retained_for_us_and_that_only_1_Exit_Row_seat_was_available._Understandably_we_were_not_happy_that_we_did_not_receive_the_Exit_Row_seats_that_we_had_booked_and_paid_for_more_than_3_months_prior._Through_no_fault_of_our_own_we_were_victims_of_a_Qatar_Airways_system_error._We_did_not_complain_to_the_flight_attendants_on_the_Doha_to_Perth_flight_as_we_understood_that_they_had_no_control_over_the_seat_allocation._However,_we_politely_asked_the_people_in_seats_30A_and_30B,_that_we_had_paid_for_in_August,_when_they_had_purchased_their_seats_and_were_informed_that_they_had_done_so_about_2_weeks_prior._I_chose_Exit_Row_seats_on_the_Upper_Deck_because_of_the_extra_space_and_the_cabin_configuration_of_2_by_4_by_2_seats_and_because_my_wife_and_I_would_be_seated_next_to_each_other_and_the_other_member_of_our_group_would_be_in_the_next_available_Exit_Row_seat._Instead_of_all_being_seated_next_to_each_other_in_Exit_Row_seats_we_were_split_up_and_certainly_didn’t_get_what_we_paid_for._Plus_all_of_the_wasted_time_trying_unsuccessfully_in_Amman_and_then_at_the_Transit_Desk_in_Doha_to_sort_out_the_error_created_by_Qatar_Airways_assigning_our_seats_to_someone_else._It_is_bad_enough_that_we_didn’t_get_2_of_the_Exit_Row_seats_that_we_had_paid_for_that_were_allocated_to_other_people_who_booked_well_after_us._What_is_worse_is_that_there_has_been_no_attempt_by_Qatar_Airways_to_address_our_complaint_let_alone_issue_the_refund_to_which_we_are_entitled._Our_complaint_isn’t_complex.
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I_have_sent_5_emails_and_have_only_received_2_automatic_response_emails_after_initiating_our_complaint_10_weeks_ago._I_have_sent_all_of_the_relevant_documentation_to_support_our_claim_for_a_refund._Our_group_of_3_booked_adjoining_Exit_Row_seats_on_the_Upper_Deck_of_an_A380_from_Doha_to_Perth_after_a_connecting_flight_from_Amman._We_paid_for_our_Exit_Row_seats_on_August_22_2023_and_received_email_confirmation_that_day._What_was_a_shock_to_us_is_that_when_we_were_at_Amman_airport_we_got_our_tickets_for_the_second_leg,_from_Doha_to_Perth,_we_saw_that_we_had_been_seats_on_the_lower_deck._We_said_this_was_wrong_and_showed_our_August_confirmation_for_seats_30_A,_B_and_C_on_the_upper_deck._We_were_told_by_Qatar_Airways_staff_in_Amman_that_it_could_only_be_fixed_up_in_Doha._We_were_also_told_that_the_reason_was_that_the_plane_had_been_changed_from_an_A380_(which_was_not_correct)_._Our_connecting_flight_from_Amman_to_Doha_was_not_only_cancelled_but_deleted_altogether_meaning_we_had_a_10.5_hour_transit_instead_of_the_original_2.5_hours._Then_at_the_Boarding_Gate_in_Amman_we_were_informed_that_there_were_2_Exit_Row_seats_available_in_the_Upper_Deck_and_that_these_had_been_put_on_hold_for_us_and_to_see_the_Qatar_Ground_staff_in_Doha._We_were_in_a_queue_for_almost_an_hour_at_the_Qatar_Service_Desk_in_Doha._I_asked_how_the_seats_we_had_booked_and_paid_extra_for_in_August,_and_provided_emails_and_a_hard_copy_to_verify_this,_were_no_longer_available_for_us?_We_were_told_that_it_was_a_system_error._There_was_no_apology_at_all_for_the_system_error._We_were_further_disappointed_to_find_out_that_the_2_Exit_Row_seats_on_the_Upper_Deck_that_we_had_been_told_by_staff_at_the_boarding_Gate_at_Amman_had_been_“reserved”_were_not_actually_retained_for_us_and_that_only_1_Exit_Row_seat_was_available._Understandably_we_were_not_happy_that_we_did_not_receive_the_Exit_Row_seats_that_we_had_booked_and_paid_for_more_than_3_months_prior._Through_no_fault_of_our_own_we_were_victims_of_a_Qatar_Airways_system_error._We_did_not_complain_to_the_flight_attendants_on_the_Doha_to_Perth_flight_as_we_understood_that_they_had_no_control_over_the_seat_allocation._However,_we_politely_asked_the_people_in_seats_30A_and_30B,_that_we_had_paid_for_in_August,_when_they_had_purchased_their_seats_and_were_informed_that_they_had_done_so_about_2_weeks_prior._I_chose_Exit_Row_seats_on_the_Upper_Deck_because_of_the_extra_space_and_the_cabin_configuration_of_2_by_4_by_2_seats_and_because_my_wife_and_I_would_be_seated_next_to_each_other_and_the_other_member_of_our_group_would_be_in_the_next_available_Exit_Row_seat._Instead_of_all_being_seated_next_to_each_other_in_Exit_Row_seats_we_were_split_up_and_certainly_didn’t_get_what_we_paid_for._Plus_all_of_the_wasted_time_trying_unsuccessfully_in_Amman_and_then_at_the_Transit_Desk_in_Doha_to_sort_out_the_error_created_by_Qatar_Airways_assigning_our_seats_to_someone_else._It_is_bad_enough_that_we_didn’t_get_2_of_the_Exit_Row_seats_that_we_had_paid_for_that_were_allocated_to_other_people_who_booked_well_after_us._What_is_worse_is_that_there_has_been_no_attempt_by_Qatar_Airways_to_address_our_complaint_let_alone_issue_the_refund_to_which_we_are_entitled._Our_complaint_isn’t_complex.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I_have_sent_5_emails_and_have_only_received_2_automatic_response_emails_after_initiating_our_complaint_10_weeks_ago._I_have_sent_all_of_the_relevant_documentation_to_support_our_claim_for_a_refund._Our_group_of_3_booked_adjoining_Exit_Row_seats_on_the_Upper_Deck_of_an_A380_from_Doha_to_Perth_after_a_connecting_flight_from_Amman._We_paid_for_our_Exit_Row_seats_on_August_22_2023_and_received_email_confirmation_that_day._What_was_a_shock_to_us_is_that_when_we_were_at_Amman_airport_we_got_our_tickets_for_the_second_leg,_from_Doha_to_Perth,_we_saw_that_we_had_been_seats_on_the_lower_deck._We_said_this_was_wrong_and_showed_our_August_confirmation_for_seats_30_A,_B_and_C_on_the_upper_deck._We_were_told_by_Qatar_Airways_staff_in_Amman_that_it_could_only_be_fixed_up_in_Doha._We_were_also_told_that_the_reason_was_that_the_plane_had_been_changed_from_an_A380_(which_was_not_correct)_._Our_connecting_flight_from_Amman_to_Doha_was_not_only_cancelled_but_deleted_altogether_meaning_we_had_a_10.5_hour_transit_instead_of_the_original_2.5_hours._Then_at_the_Boarding_Gate_in_Amman_we_were_informed_that_there_were_2_Exit_Row_seats_available_in_the_Upper_Deck_and_that_these_had_been_put_on_hold_for_us_and_to_see_the_Qatar_Ground_staff_in_Doha._We_were_in_a_queue_for_almost_an_hour_at_the_Qatar_Service_Desk_in_Doha._I_asked_how_the_seats_we_had_booked_and_paid_extra_for_in_August,_and_provided_emails_and_a_hard_copy_to_verify_this,_were_no_longer_available_for_us?_We_were_told_that_it_was_a_system_error._There_was_no_apology_at_all_for_the_system_error._We_were_further_disappointed_to_find_out_that_the_2_Exit_Row_seats_on_the_Upper_Deck_that_we_had_been_told_by_staff_at_the_boarding_Gate_at_Amman_had_been_“reserved”_were_not_actually_retained_for_us_and_that_only_1_Exit_Row_seat_was_available._Understandably_we_were_not_happy_that_we_did_not_receive_the_Exit_Row_seats_that_we_had_booked_and_paid_for_more_than_3_months_prior._Through_no_fault_of_our_own_we_were_victims_of_a_Qatar_Airways_system_error._We_did_not_complain_to_the_flight_attendants_on_the_Doha_to_Perth_flight_as_we_understood_that_they_had_no_control_over_the_seat_allocation._However,_we_politely_asked_the_people_in_seats_30A_and_30B,_that_we_had_paid_for_in_August,_when_they_had_purchased_their_seats_and_were_informed_that_they_had_done_so_about_2_weeks_prior._I_chose_Exit_Row_seats_on_the_Upper_Deck_because_of_the_extra_space_and_the_cabin_configuration_of_2_by_4_by_2_seats_and_because_my_wife_and_I_would_be_seated_next_to_each_other_and_the_other_member_of_our_group_would_be_in_the_next_available_Exit_Row_seat._Instead_of_all_being_seated_next_to_each_other_in_Exit_Row_seats_we_were_split_up_and_certainly_didn’t_get_what_we_paid_for._Plus_all_of_the_wasted_time_trying_unsuccessfully_in_Amman_and_then_at_the_Transit_Desk_in_Doha_to_sort_out_the_error_created_by_Qatar_Airways_assigning_our_seats_to_someone_else._It_is_bad_enough_that_we_didn’t_get_2_of_the_Exit_Row_seats_that_we_had_paid_for_that_were_allocated_to_other_people_who_booked_well_after_us._What_is_worse_is_that_there_has_been_no_attempt_by_Qatar_Airways_to_address_our_complaint_let_alone_issue_the_refund_to_which_we_are_entitled._Our_complaint_isn’t_complex.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review_Body> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I’d_rate_them_maybe_7/10
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I’d_rate_them_maybe_7/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#I’d_rate_them_maybe_7/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Title> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Service_was_ok,_pretty_good_on_my_aisle_and_extremely_slow_where_my_wife_was_seated._Layout_was_good,_but_not_exceptional,_I’d_rate_them_maybe_7/10._Landing_in_Doha,_we_then_had_quite_a_long_wait_for_steps_to_be_brought_to_the_aircraft_and_then_a_10_to_15_minute_bus_ride_to_the_terminal._There_is_a_lot_of_competition_for_routes_from_Europe_to_Australasia_and_think_I’ll_pick_one_of_the_other_options_in_future.
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Service_was_ok,_pretty_good_on_my_aisle_and_extremely_slow_where_my_wife_was_seated._Layout_was_good,_but_not_exceptional,_I’d_rate_them_maybe_7/10._Landing_in_Doha,_we_then_had_quite_a_long_wait_for_steps_to_be_brought_to_the_aircraft_and_then_a_10_to_15_minute_bus_ride_to_the_terminal._There_is_a_lot_of_competition_for_routes_from_Europe_to_Australasia_and_think_I’ll_pick_one_of_the_other_options_in_future.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Service_was_ok,_pretty_good_on_my_aisle_and_extremely_slow_where_my_wife_was_seated._Layout_was_good,_but_not_exceptional,_I’d_rate_them_maybe_7/10._Landing_in_Doha,_we_then_had_quite_a_long_wait_for_steps_to_be_brought_to_the_aircraft_and_then_a_10_to_15_minute_bus_ride_to_the_terminal._There_is_a_lot_of_competition_for_routes_from_Europe_to_Australasia_and_think_I’ll_pick_one_of_the_other_options_in_future.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review_Body> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#They_convinced_me_that_I_needed_to_pay_$1500_to_add_my_middle_name_to_my_flight,_or_they_wouldn't_allow_me_on_the_plane._When_I_got_to_the_airport,_they_didn't_put_my_middle_name_on_the_ticket_and_I_didn't_have_any_issues._I_paid_$2300_to_upgrade_our_seats_to_business_class_from_Doha_to_Montreal._Not_even_an_hour_into_the_flight,_the_seat_reclined_on_its_own,_pinching_my_leg._The_seat_wouldn't_stay_up_the_rest_of_the_13.5_hour_flight.
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#They_convinced_me_that_I_needed_to_pay_$1500_to_add_my_middle_name_to_my_flight,_or_they_wouldn't_allow_me_on_the_plane._When_I_got_to_the_airport,_they_didn't_put_my_middle_name_on_the_ticket_and_I_didn't_have_any_issues._I_paid_$2300_to_upgrade_our_seats_to_business_class_from_Doha_to_Montreal._Not_even_an_hour_into_the_flight,_the_seat_reclined_on_its_own,_pinching_my_leg._The_seat_wouldn't_stay_up_the_rest_of_the_13.5_hour_flight.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#They_convinced_me_that_I_needed_to_pay_$1500_to_add_my_middle_name_to_my_flight,_or_they_wouldn't_allow_me_on_the_plane._When_I_got_to_the_airport,_they_didn't_put_my_middle_name_on_the_ticket_and_I_didn't_have_any_issues._I_paid_$2300_to_upgrade_our_seats_to_business_class_from_Doha_to_Montreal._Not_even_an_hour_into_the_flight,_the_seat_reclined_on_its_own,_pinching_my_leg._The_seat_wouldn't_stay_up_the_rest_of_the_13.5_hour_flight.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review_Body> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#We_flew_on_probably_the_first_A380_the_airline_received_but_it’s_up_keep_is_very_good_the_caviar_was_excellent_and_the_rack_of_lamb_was_perfect_the_entertainment_system_though_the_screens_were_huge_and_not_very_cooperative_it_is_very_dated_as_for_WiFi_was_bad_to_say_the_least._The_seating_in_First_Class_was_good_and_the_toilets_are_huge_I_hope_they_update_the_A380.
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#We_flew_on_probably_the_first_A380_the_airline_received_but_it’s_up_keep_is_very_good_the_caviar_was_excellent_and_the_rack_of_lamb_was_perfect_the_entertainment_system_though_the_screens_were_huge_and_not_very_cooperative_it_is_very_dated_as_for_WiFi_was_bad_to_say_the_least._The_seating_in_First_Class_was_good_and_the_toilets_are_huge_I_hope_they_update_the_A380.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#We_flew_on_probably_the_first_A380_the_airline_received_but_it’s_up_keep_is_very_good_the_caviar_was_excellent_and_the_rack_of_lamb_was_perfect_the_entertainment_system_though_the_screens_were_huge_and_not_very_cooperative_it_is_very_dated_as_for_WiFi_was_bad_to_say_the_least._The_seating_in_First_Class_was_good_and_the_toilets_are_huge_I_hope_they_update_the_A380.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Review_Body> .
+# 
+# http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#seat_wouldn't_stay_up
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#seat_wouldn't_stay_up> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#seat_wouldn't_stay_up> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Title> .
+# 
+_:genid10 <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#sameAs> "https://dbpedia.org/page/Ryanair" .
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid11 <http://www.w3.org/2002/07/owl#members> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Premium_Economy> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#First_Class> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Economy_Class> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/alvar/ontologies/2024/3/untitled-ontology-6#Business_Class> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
